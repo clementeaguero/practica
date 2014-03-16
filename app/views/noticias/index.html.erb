@@ -3,8 +3,11 @@
 <center> <b><u><i><h2><font face="monotype corsiva"> C y M NOTICIAS 
 </font></h2></i></u></b>
 <hr width=80% size=6>
+<% @noticias.each do |n|%>
 <p>
-Ultimo momento una hormiga ciega choca contra una pared "se le cae todo 
-encima y aun así sobrevivió "
+<%= n.titulo%> 
 </p>
+<%
+end
+%>
 </body>
