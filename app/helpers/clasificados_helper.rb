@@ -1,0 +1,2 @@
+module ClasificadosHelper
+end
